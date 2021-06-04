@@ -56,7 +56,7 @@ class Search extends Component {
       <>
         <Container>
           <Form>
-            <InputGroup controlId="formBasicEmail" className="mt-3">
+            <InputGroup className="mt-3">
               <FormControl
                 placeholder="Recipient's username"
                 aria-label="Recipient's username"
@@ -88,7 +88,7 @@ class Search extends Component {
         )}
         {this.state.movies.Search && (
           <Container fluid>
-            <h3 className="mt-4 text-white">Movies of "{searchQuery}"</h3>
+            <h3 className="mt-4 ">Movies of "{searchQuery}"</h3>
             <Row className="m-5">
               {console.log(
                 "this.state.movies.Search:",

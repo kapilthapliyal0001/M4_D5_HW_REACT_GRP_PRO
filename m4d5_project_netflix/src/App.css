@@ -40,6 +40,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background: #111;
+  color: #fff;
 }
 .btn-without-outline {
   border: none;
@@ -55,8 +56,8 @@ body {
   border: solid red 3px;
   padding: 10px;
   margin: 10px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
   flex-wrap: nowrap;
 }
 .col-xs-4 {
@@ -89,7 +90,7 @@ footer ul li {
   height: 280px;
 }
 
-:-webkit-scrollbar {
+::-webkit-scrollbar {
   height: 10px;
 }
 
@@ -110,4 +111,8 @@ footer ul li {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background-color: rgb(58, 58, 58);
+}
+
+.row h3 {
+  color: #fff;
 }
