@@ -47,13 +47,13 @@ body {
 }
 
 .container {
-  border: springgreen solid 5px;
+  /* border: springgreen solid 5px; */
 }
 .row {
   display: flex;
   overflow-x: scroll;
   overflow-y: hidden;
-  border: solid red 3px;
+  /* border: solid red 3px; */
   padding: 10px;
   margin: 10px;
   margin-left: 100px;
