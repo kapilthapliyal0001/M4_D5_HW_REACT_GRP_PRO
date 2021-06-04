@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import "./App.css";
 import BackOffice from "./component/BackOffice";
@@ -19,6 +20,18 @@ function App() {
       <Carousell search={"Mummy"} />
     </div>
   );
+=======
+import "./App.css"
+import "bootstrap/dist/css/bootstrap.min.css"
+import NavbarNetflix from "./component/Navbar/NavbarNetflix"
+
+function App() {
+  return (
+    <>
+      <NavbarNetflix />
+    </>
+  )
+>>>>>>> origin/feature_ingrid
 }
 
-export default App;
+export default App
