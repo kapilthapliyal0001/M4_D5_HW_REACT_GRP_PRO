@@ -1,5 +1,7 @@
-import React from "react"
-import "../Navbar/NavbarNetflix.css"
+import React from "react";
+import "../Navbar/NavbarNetflix.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 // import * as Icon from "react-bootstrap-icons"
 import {
   Button,
@@ -9,7 +11,7 @@ import {
   Navbar,
   Nav,
   NavDropdown,
-} from "react-bootstrap"
+} from "react-bootstrap";
 
 const NavbarNetflix = () => (
   <Navbar expand="lg" variant="dark" style={{ backgroundColor: "#141414" }}>
@@ -66,6 +68,6 @@ const NavbarNetflix = () => (
       </Nav>
     </Navbar.Collapse>
   </Navbar>
-)
+);
 
-export default NavbarNetflix
+export default NavbarNetflix;

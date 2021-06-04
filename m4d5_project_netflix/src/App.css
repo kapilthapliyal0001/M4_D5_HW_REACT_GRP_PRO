@@ -116,3 +116,39 @@ footer ul li {
 .row h3 {
   color: #fff;
 }
+.btn-primary {
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+
+#logo {
+  height: 48px;
+}
+
+#avatar {
+  height: 36px;
+}
+
+.dropdown-menu {
+  margin-left: -100px;
+  background-color: black;
+}
+
+.icon {
+  margin: 4px 10px;
+}
+
+.dropdown-menu a {
+  font-size: 12px;
+}
+
+.genre-details {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.genre-button {
+  margin-left: 4em;
+}
