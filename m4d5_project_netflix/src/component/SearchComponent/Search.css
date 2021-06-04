@@ -1,26 +1,4 @@
 /* width */
-::-webkit-scrollbar {
-  height: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 1px 1px 5px #1d1b1b;
-  border-radius: 10px;
-  background: #212327;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #1a1a1a;
-  border-radius: 10px;
-  box-shadow: inset 1px 1px 5px #2c2c2c;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(58, 58, 58);
-}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -51,19 +29,6 @@ footer ul li {
 .btn-color {
   color: #999;
   border: 1px solid white;
-}
-
-#TV-show {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  padding: 25px;
-}
-
-.genre-details {
-  padding: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .card {
