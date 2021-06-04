@@ -1,16 +1,16 @@
 import React from "react";
 import "../Navbar/NavbarNetflix.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 // import * as Icon from "react-bootstrap-icons"
 import {
-  Button,
+  // Button,
   Dropdown,
-  Form,
-  FormControl,
+  // Form,
+  // FormControl,
   Navbar,
   Nav,
-  NavDropdown,
+  // NavDropdown,
 } from "react-bootstrap";
 
 const NavbarNetflix = () => (
