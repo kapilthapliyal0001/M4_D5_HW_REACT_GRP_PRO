@@ -1,2 +1,2 @@
 # M4_D5_HW_REACT_GRP_PRO
-Project with Ingrid, Henry, Janush and Kapil
+Project with Ingrid, Hedri, Janusz and Kapil
