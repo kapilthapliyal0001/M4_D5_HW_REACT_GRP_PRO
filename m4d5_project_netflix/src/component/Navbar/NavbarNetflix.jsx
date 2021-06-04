@@ -44,7 +44,7 @@ const NavbarNetflix = () => (
           </Dropdown.Toggle>
           <Dropdown.Menu
             align="right"
-            className="dropDown"
+            className="dropDown dropdown-menu"
             style={{ opacity: 0.8, backgroundColor: "#141414" }}
           >
             <Dropdown.Item className="text-white">Hedri</Dropdown.Item>
