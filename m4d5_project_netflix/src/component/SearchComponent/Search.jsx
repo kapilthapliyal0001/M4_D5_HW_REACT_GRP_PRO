@@ -1,4 +1,6 @@
 // import "./Search.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import {
   Container,
   Row,
@@ -10,7 +12,7 @@ import {
   InputGroup,
   FormControl,
 } from "react-bootstrap";
-import { Component } from "react";
+import {Component} from "react";
 import Button from "react-bootstrap/Button";
 
 const API = "http://www.omdbapi.com/";
@@ -33,18 +35,18 @@ class Search extends Component {
       let response = await fetch(`${API}?apikey=${APIKEY}&s=${searchQuery}`);
       if (response.ok) {
         let data = await response.json();
-        this.setState({ movies: data, isError: false, isLoading: false });
+        this.setState({movies: data, isError: false, isLoading: false});
       } else {
-        this.setState({ isError: true, isLoading: false });
+        this.setState({isError: true, isLoading: false});
       }
     } catch (error) {
       console.log(error);
-      this.setState({ isError: true, isLoading: false });
+      this.setState({isError: true, isLoading: false});
     }
   };
 
-  selectedStyle = { border: "2px solid red", color: "red" };
-  notSelectedStyle = { border: "none", color: "black" };
+  selectedStyle = {border: "2px solid red", color: "red"};
+  notSelectedStyle = {border: "none", color: "black"};
 
   onChangeFunction = (e) => {
     searchQuery = e.target.value;
@@ -54,7 +56,7 @@ class Search extends Component {
   render() {
     return (
       <>
-        <Container>
+        <Container className="d-flex justify-content-center">
           <Form>
             <InputGroup className="mt-3">
               <FormControl
